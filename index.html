@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Marcos de Colón - Destino Turístico en Semana Santa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f4e1c1;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        .hero {
+
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .card-img-top {
+            width: 100%;
+            height: 200px;
+            /* Ajusta la altura según necesites */
+            object-fit: cover;
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+        }
+
+        .card-text {
+            text-align: justify;
+            flex-grow: 1;
+            /* Hace que el texto ocupe el espacio disponible */
+        }
+
+        .card-body .d-flex {
+            margin-top: auto;
+            /* Empuja el botón hacia la parte inferior */
+        }
+
+
+        footer {
+            margin-top: auto;
+            background-color: #8b5e3c;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg" style="background-color: #8b5e3c;">
+        <div class="container-fluid">
+            <!-- Logo en lugar de texto -->
+            <a class="navbar-brand" href="index.html">
+                <img src="MEDIA2/98fd1c1f85f849cdad9b1ad3feb3f994.png" alt="San Marcos de Colón" style="height: 40px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-white fw-bold active" href="index.html">INICIO</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-bold" href="lugares.html">LUGARES</a></li>
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-white fw-bold" href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="hero text-center p-5"
+        style="background: url('MEDIA2/Captura\ de\ pantalla\ 2025-02-17\ 114456.png') center/cover no-repeat;">
+        <h1 class="display-4 fw-bold">Descubre San Marcos de Colón</h1>
+        <p class="lead">Un paraíso de naturaleza, cultura y tradición para disfrutar en Semana Santa.</p>
+        <a href="#lugares" class="btn btn-light btn-lg">Explorar</a>
+    </section>
+
+    <section id="lugares" class="d-flex justify-content-center flex-wrap gap-4 p-3">
+        <!-- Tarjeta 1: Reserva Biológica La Botija -->
+        <div class="card" style="width: 18rem;">
+            <img src="MEDIA2/cascada-la-botija.jpg" class="card-img-top" alt="Reserva El Jilguero">
+            <div class="card-body">
+                <h5 class="card-title">Reserva Biológica La Botija</h5>
+                <p class="card-text">Explora su biodiversidad y paisajes naturales únicos.Reserva Biológica La Botija es
+                    una joya natural ubicada en el departamento de Choluteca. Esta área protegida abarca más de 19,000
+                    hectáreas de bosques de pino, roble y quebracho, con cinco picos montañosos coronados por bosques
+                    nublados.</p>
+                <div class="d-flex justify-content-center">
+                    <a href="lugares.html" class="btn btn-primary">Ver más</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tarjeta 2: Centro Histórico -->
+        <div class="card" style="width: 18rem;">
+            <img src="MEDIA2/155982405_1321048484941739_2078062196984157141_n-1024x1024.jpg" class="card-img-top"
+                alt="Centro Histórico">
+            <div class="card-body">
+                <h5 class="card-title">Centro Histórico</h5>
+                <p class="card-text">El Centro Histórico de
+                    San Marcos de Colón es un reflejo de la rica herencia cultural y arquitectónica de esta ciudad
+                    fundada el 8 de diciembre de 1835. Entre sus monumentos destacados se encuentra el edificio
+                    municipal, el atractivo parque central y antiguas casas.
+                </p>
+                <div class="d-flex justify-content-center">
+                    <a href="lugares.html" class="btn btn-primary">Ver más</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tarjeta 3: Parque Cabañas -->
+        <div class="card" style="width: 18rem;">
+            <img src="MEDIA2/Captura de pantalla 2025-02-17 194045.png" class="card-img-top" alt="Parque Cabañas">
+            <div class="card-body">
+                <h5 class="card-title">Parque Cabañas</h5>
+                <p class="card-text">
+                    Ubicado en el corazón de San Marcos de Colón, este parque histórico rinde homenaje al prócer
+                    José Trinidad Cabañas. Rodeado de naturaleza y monumentos patrios, es un punto de encuentro
+                    para locales y visitantes.
+                </p>
+                <div class="d-flex justify-content-center">
+                    <a href="lugares.html" class="btn btn-primary">Ver más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="informacion" class="text-center py-5" style="background-color: #f9f9f9;">
+        <div class="container">
+            <h2 class="display-4 fw-bold mb-4" style="color: #8b5e3c;">Todo lo que necesitas saber sobre San Marcos de
+                Colón</h2>
+            <p class="lead mb-4" style="font-size: 1.2rem; color: #555; text-align: justify;">
+                El departamento de Choluteca se caracteriza por ser la zona más calurosa de Honduras, ya que las altas
+                temperaturas predominan el mayor tiempo en este territorio. Sin embargo, a unos 53 kilómetros del
+                municipio de Choluteca se encuentra el oasis del sur: San Marcos de Colón. Este destino se caracteriza
+                por ser completamente fresco debido a las altas montañas que rodean la ciudad y la diversidad de flora
+                que se encuentra refugiada en este municipio poco conocido por los viajeros.
+            </p>
+            <p class="mb-4" style="font-size: 1.2rem; color: #555; text-align: justify;">
+                San Marcos de Colón forma parte de la “Ruta del Sol”, porque es una ciudad limpia, ordenada y muy
+                segura. Además es un lugar que tiene una gran oferta turística, por lo que vale la pena adentrarse y
+                conocerla. Desde impresionantes cascadas y reservas biológicas hasta un encantador centro histórico,
+                cada rincón de San Marcos de Colón ofrece algo único. Ven y experimenta lo que este paraíso tiene para
+                ofrecerte.
+            </p>
+            <p class="mb-4" style="font-size: 1.2rem; color: #555; text-align: justify;">
+                Uno de los mayores atractivos de este destino sureño es la tranquilidad que colma a San Marcos de Colón,
+                los pobladores transitan su ciudad sin ningún afán, disfrutando todo lo que les ofrece su amado pueblo
+                que posee encantadores colores que embellecen sus antiguos edificios y casas que aún conservan el estilo
+                colonial. Otro de los encantos de esta ciudad es el Parque Central Cabañas. Este es un espacio que
+                respeta el hábitat de los animales, desde el momento que se ingresa se puede observar un grupo de
+                iguanas que gozan de este lugar que está rodeado de imponentes árboles.
+            </p>
+            <p class="mb-4" style="font-size: 1.2rem; color: #555; text-align: justify;">
+                Las iguanas pasean por este rincón como si fuera su territorio propio, pero esto no quiere decir que
+                estos reptiles no sean amigables, al contrario, ellos disfrutan la compañía del ser humano e incluso
+                algunas personas les llevan sus flores favoritas y les dan de comer.
+            </p>
+            <a href="contacto.html" class="btn btn-lg" style="background-color: #8b5e3c; color: white;">¡Contáctanos
+                para más información!</a>
+        </div>
+    </section>
+
+
+    <footer class="text-center p-4" style="background-color: #8b5e3c;">
+        <p class="mb-0 text-white">&copy; 2025 San Marcos de Colón | Descubre su belleza en Semana Santa</p>
+    </footer>
+
+</body>
+
+</html>
